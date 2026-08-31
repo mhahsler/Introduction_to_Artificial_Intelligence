@@ -1,15 +1,29 @@
 <!-- #region -->
-# HOWTO Tools
+# HOWTO Setup the Used Tools
 
 ## Installing Python and Jupyter Notebook
+
+To work on assignments, you can use one of several environments: 
+* Use the online service [Google CoLab](https://colab.research.google.com). No additional installations are necessary.
+* Install Visual Studio Code. It will prompt you to install all needed software when you open a notebook file.
+
+## Using Google Colab
 
 You can experiment with the code online without installation using 
 [Google CoLab](https://colab.research.google.com/github/mhahsler/Introduction_to_Artificial_Intelligence/). If additional packages are needed then
 I will provide a code block with a commented out `pip install` instruction you can use.
 
-To work on assignments, you can use one of several environments: 
-* Use the online service [Google CoLab](https://colab.research.google.com). No additional installations are necessary.
-* Install Visual Studio Code. It will prompt you to install all needed software when you open a notebook file.
+In Colab you need to save notebooks and any additional files you use on GoogleDrive to work with them. 
+For this you need to mount your google dive and change to the correct directory by uncommenting the following lines and running the code block.
+You can manually mount your Google drive in Colab or add the following code block to your notebook:
+
+```Python
+from google.colab import drive
+import os
+
+drive.mount('/content/drive')
+os.chdir('/content/drive/My Drive/Colab Notebooks/')
+```
 
 ## Setting up the Environment with Conda
 
