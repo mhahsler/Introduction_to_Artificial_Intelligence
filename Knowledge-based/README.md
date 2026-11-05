@@ -7,7 +7,7 @@ the logic programming language [Prolog](https://en.wikipedia.org/wiki/Prolog). H
 
 * [A Simple Prolog Knowledge Base.](https://swish.swi-prolog.org/example/kb.pl)
 * [The n-Queens Problem as a Logic Problem.](https://swish.swi-prolog.org/example/queens.pl)
-* [Simple Prolog Example for an Agent](https://mhahsler.github.io/Introduction_to_Artificial_Intelligence/Knowledge-based/example.pl)
+* [Simple Prolog Example for an Agent.](https://github.com/mhahsler/Introduction_to_Artificial_Intelligence/blob/master/Knowledge-based/example.pl)
 
 Python provides several modules for logic and symbolic mathematics. Here is a short primer on [logic programming with Python](https://www.tutorialspoint.com/artificial_intelligence_with_python/artificial_intelligence_with_python_logic_programming.htm).
 
