@@ -17,7 +17,7 @@ jealous(X, Y) :-
     loves(X, Z),
     loves(Y, Z).
 
-% actions changes the state
+% actions change the state
 love(X, Y) :- 
     loves(X,Y).
 
