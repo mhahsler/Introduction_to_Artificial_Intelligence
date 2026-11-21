@@ -38,6 +38,9 @@ An agentic AI solution uses a set of specially prompted LLM calls. It may involv
     - A developer-defined workflow using "prompt chaining" and feedback between LLMs.
     - An LLM that plans its own tasks (acting as an autonomous agent, hence the name agentic AI).
 
+Example:
+* [A Knowledge-based Agent using LLMs](https://github.com/mhahsler/Introduction_to_Artificial_Intelligence/tree/master/Knowledge-based/LLM_Maze_Agent.md)
+
 Video:
 * [Introduction to Agentic AI with Coding Examples](https://youtu.be/LSk5KaEGVk4) ([Code repository](https://github.com/ed-donner/action))
 
